@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #00aaff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #333;
+            margin: 40px 0;
+        }
+        .projects, .contact {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+        .project-card, .contact-card {
+            background: white;
+            padding: 20px;
+            width: 45%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .project-card h3, .contact-card h3 {
+            color: #00aaff;
+        }
+        .contact a {
+            display: block;
+            margin: 10px 0;
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            color: #00aaff;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <p>Hello! I'm Lane Koenig, a passionate front-end developer. I specialize in creating responsive, user-friendly websites using modern technologies like HTML, CSS, and JavaScript. I enjoy tackling new challenges and am always eager to learn more.</p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A description of your project goes here. Explain the features and technologies you used.</p>
+                <a href="https://github.com" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>A description of another project goes here. Explain the features and technologies you used.</p>
+                <a href="https://github.com" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact">
+            <div class="contact-card">
+                <p>Email: <a href="mailto:lanekoenig11@gmail.com">lanekoenig11@gmail.com</a></p>
+                <p>Phone: <a href="tel:+14053619456">405-361-9456</a></p>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 My Portfolio | Designed by Lane Koenig</p>
+    </footer>
+</body>
+</html>
